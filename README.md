@@ -13,4 +13,4 @@
 * gcd_simple.py   :   最大公約数計算関数 (2値) / Greatest Common Divisor function for two numbers
 * lcm4args.py     :   最小公倍数計算関数 (配列対応) / Least Common Multiple function for argument
 * lcm_simple.py   :   最小公倍数計算関数 (2値) / Least Common Multiple function for two numbers
-* my_round.py     :   四捨五入計算関数 / Rounding off function
+* round.py        :   四捨五入計算関数 / Rounding off function

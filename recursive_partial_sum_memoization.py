@@ -24,7 +24,7 @@ def func(i, x, a, dp):
             return False
     
     # メモを確認する
-    if dp[i][x]:
+    if dp[i][x] != -1:
         return dp[i][x]
     
     # ベースケースにたどり着くまでの処理
@@ -45,15 +45,15 @@ def func(i, x, a, dp):
 # ===== 動作確認 =====
 # 入力例
 # * Yes の場合
-N = 4
-X = 14
-costs = [3, 2, 5, 6]
+# N = 4
+# X = 14
+# costs = [3, 2, 5, 6]
 
 
 # * No の場合
-# N = 5
-# X = 19
-# costs = [9, 8, 3, 1, 3] 
+N = 5
+X = 19
+costs = [9, 8, 3, 1, 3] 
 
 
 dp = [[-1 for _ in range(X + 1)] for _ in range(N + 1)]

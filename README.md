@@ -11,6 +11,7 @@
 |:-|:-|
 | fact.py | Factorial function |
 | fib.py | Fibonacci number function |
+| find_divisors.py | Find divisors function |
 | gcd4args.py | Greatest Common Divisor function for argument |
 | gcd_simple.py | Greatest Common Divisor function for two numbers |
 | lcm4args.py | Least Common Multiple function for argument|
